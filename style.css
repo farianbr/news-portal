@@ -1,0 +1,148 @@
+body{
+    background-color: rgba(245, 240, 240, 0.829)
+}
+
+.nav-bar-container{
+    display: flex;
+    justify-content:space-between;
+    
+    align-items: center;
+    height: 80px;
+    
+}
+
+.logo{
+    padding: 10px 20px;
+    margin: 10px 100px;
+    background-color:darkslategray;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+}
+
+.logo:hover{
+    background-color:rgb(25, 54, 54)
+}
+
+.hr-line{
+    border: 1px solid rgb(187, 173, 173);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nav-bar{
+    display: flex;
+    width: 200px;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10px 100px;
+}
+
+.nav-item{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-item:hover{
+    background-color: rgb(224, 199, 166);
+}
+
+.all-news-category{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.news-category{
+    background-color:azure;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.news-item-clicked{
+    background-color: rgb(153, 196, 196);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.news-category:hover{
+    background-color: rgb(153, 196, 196);
+}
+
+.item-count{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.article-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.image-container{
+    margin: 20px;
+}
+
+.details-container{
+    margin: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-bottom{
+    margin-top: auto;
+}
+
+.article-author-container{
+    display: flex;
+    height: 40px;
+    width: 80%;
+}
+
+.author-image-container{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    
+}
+
+.author-image{
+    border-radius: 50%;
+}
+
+.author-detail-container{
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+}
+
+.author-name{
+    font-size:small;
+    font-weight: 600;
+}
+
+.publish-date{
+    font-size: smaller;
+}
