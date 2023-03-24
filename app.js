@@ -46,13 +46,23 @@ const showAllNewsArticles = (e,data) => {
         console.log(articleBody);
         const authorName = element.author.name
         console.log(authorName);
-        const publishDate = element.author.published_date
-        if(publishDate === null){
+        
+        // const publishDate = element.author.published_date
+        // if(publishDate === null){
             
-        }
-        else{
-            publishDate.slice(0,10)
-        }
+        // }
+        // else{
+        //     publishDate.slice(0,10)
+        // }
+
+        const publishDate = element.author.published_date?.slice(0,10)
+
+        // try {
+        //     const publishDate = element.author.published_date.slice(0,10)
+        // } catch (error) {
+        //     const publishDate = element.author.published_date
+        // }
+
         console.log(publishDate);
         const authorImage = element.author.img
         console.log(authorImage);
